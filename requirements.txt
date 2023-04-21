@@ -1,1 +1,37 @@
-# Add your third-party Python libraries here
+# Add your third-party Pythrequests: A library for making HTTP requests in Python.
+BeautifulSoup: A library for pulling data out of HTML and XML files.
+geopandas: A library for working with geospatial data in Python.
+pandas: A library for data manipulation and analysis.
+unittest: A library for unit testing Python code.
+typing: A module for supporting type hints in Python.
+os: A library for interacting with the operating system.
+re: A library for working with regular expressions in Python.
+math: A library providing mathematical functions and constants.
+glob: A library for finding files matching a specified pattern.
+create_engine: A function provided by the SQLAlchemy library for connecting to a SQL database.
+patch: A function provided by the unittest.mock module for patching objects in unit tests.
+sqlite3: A module providing a Python interface for working with SQLite databases.
+pandas: A library for data manipulation and analysis.
+matplotlib: A library for creating visualizations in Python.
+seaborn: A library for creating statistical graphics in Python.
+scipy: A library for scientific computing and statistics in Python.
+numpy: A library for numerical computing in Python.
+%matplotlib notebook: A magic command that allows for interactive plotting in Jupyter notebooks.
+FuncAnimation: A class provided by the matplotlib.animation module for creating animations.
+create_engine: A function provided by the SQLAlchemy library for connecting to a SQL database.
+folium: A library for creating interactive maps in Python.
+HeatMap: A plugin for the folium library that allows for creating heatmap overlays on maps.
+inspect: A module for inspecting live objects in Python.
+glob: A module for finding files matching a specified pattern.
+datetime: A module for working with dates and times in Python.
+
+
+
+
+
+
+
+
+
+
+
