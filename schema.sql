@@ -1,1 +1,0 @@
--- Write your tables' schemas in this file
