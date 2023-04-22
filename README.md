@@ -1,5 +1,5 @@
 # IEOR 4501 group 9
-we are group 9, yuchen wang, liyuan kong
+we are group 9, yuchen wang, lingyuan kong
 
 UNIs:[yw4050, lk2961]
 
