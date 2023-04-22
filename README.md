@@ -50,7 +50,7 @@ Query 6 returns the hourly number of rides, hourly precipitation, and hourly win
 
 
 ### problem 1
-We= are analyzing taxi and Uber trip data from New York City between 2009 and 2015, and writing Python code to read, clean, and transform the data using pandas and SQLite. We are also writing SQL queries to extract insights from the data, such as the number of rides per hour of the day and the number of rides per day of the week. Finally, you are creating visualizations using matplotlib to better understand the data and to communicate insights to stakeholders.
+We are analyzing taxi and Uber trip data from New York City between 2009 and 2015, and writing Python code to read, clean, and transform the data using pandas and SQLite. We are also writing SQL queries to extract insights from the data, such as the number of rides per hour of the day and the number of rides per day of the week. Finally, we are creating visualizations using matplotlib to better understand the data and to communicate insights to stakeholders.
 
 We chose the bar plot as it is an effective way to visualize the distribution of the number of rides per hour of the day over a period of several years. A bar plot is particularly useful when the data consists of distinct categories, in this case the 24 hours of the day. It allows us to easily compare the number of rides for each hour and to identify patterns or trends in the data. Additionally, the x-axis of a bar plot can be easily labeled with categorical data, which makes it ideal for visualizing the number of rides per hour of the day.
 
@@ -71,11 +71,6 @@ The code fetches start coordinates for both taxi trips and Uber trips from the d
 
 ### Problem 5
  We are creating a scatter plot comparing tip amount versus distance for yellow taxi rides. We first query the taxi_trips table and store the result in a pandas dataframe. Then, we use a function to remove outliers from the data based on the trip distance and tip amount columns. Finally, we create a scatter plot using matplotlib to visualize the relationship between tip amount and distance for yellow taxi rides.
-
-
-
-
-
 
 ### Problem 6
 The code is creating a scatter plot to compare the tip amount and hourly precipitation amount for yellow taxi rides. It first reads the Yellow Taxi data and Hourly Weather data from the database using pandas read_sql_table() function. Then, it converts the DATE column in the weather DataFrame to a pandas datetime object and merges the two DataFrames based on the nearest datetime using pandas merge_asof() function. Outliers are filtered based on reasonable ranges for tip amount and precipitation amount, and a scatter plot is created using matplotlib to visualize the relationship between the two variables.
