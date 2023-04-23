@@ -3,3 +3,39 @@
 __pycache__/
 
 # Add more files & directories as needed
+
+# Python cache and compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Data files
+yellow_taxi_data/
+
+# Shapefile
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Temporary files
+*.tmp
+*.bak
+
+# CSV files
+*.csv
+
+# Parquet files
+*.parquet
+
+# Database files
+*.db
+
+# Unallowed image files
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.tiff
